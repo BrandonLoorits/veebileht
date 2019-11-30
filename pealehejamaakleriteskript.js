@@ -1,3 +1,5 @@
+//https://github.com/gabrieleromanato/Code-On-Demand/blob/master/javascript-slideshow/example-javascript-slideshow-auto.html
+
 (function() {
 	
 	function Slideshow( element ) {
@@ -64,7 +66,7 @@
 })();
 
 
-
+//https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp
 
 
 var slideIndex = 1;
