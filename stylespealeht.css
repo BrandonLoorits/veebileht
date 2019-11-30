@@ -7,15 +7,6 @@ p {
   margin-left: 80px;
 }
 p span {background-color: white;}
-body {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: scroll;
-}
-body {
-  font-family: Verdana, sans-serif;
-}
 
 
 
@@ -57,7 +48,7 @@ body {
   text-align: center;
 }
 
-.prev, .next {
+.eelmine, .järgmine {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -71,13 +62,13 @@ body {
   user-select: none;
 }
 
-.next {
+.järgmine {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.eelmine:hover, .järgmine:hover {
   background-color: rgba(0,0,0,0.8);
   color: white;
 }
